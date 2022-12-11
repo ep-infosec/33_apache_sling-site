@@ -1,0 +1,3 @@
+org.apache.sling.feature.maven
+org.apache.sling.feature.maven.mojos
+org.apache.sling.feature.maven.mojos.reports

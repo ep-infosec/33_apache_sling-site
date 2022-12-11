@@ -1,0 +1,153 @@
+html {
+    overflow-x: auto;
+}
+
+
+body {
+    background-color: #fff;
+    color: #3b3b3b;
+}
+
+h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited {
+	color:#3b3b3b;
+	text-decoration:none;
+}
+
+a:hover {
+    color: #1faae9
+}
+
+
+.title {
+    border-bottom: solid #EEE 1px;
+    border-top: solid #EEE 1px;
+    padding-bottom:.2em;
+}
+
+
+.logo {
+    width: 15em;
+}
+
+.logo img {
+    height: 63px;
+}
+
+
+.sidemenu {
+    border-top: 10px solid #f9bb00;
+}
+
+.sidemenu ul,.sidemenu p {
+    color: #4a4a43
+}
+
+.sidemenu a {
+    color: #4a4a43
+}
+
+.main {
+    border-top: 10px solid #cde0ea;
+    max-width: 1000px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #FDF5D9;
+    border: 1px solid #DDD;
+}
+
+td {
+    border: 1px solid #DDD;
+}
+
+.note
+{
+    border: 1px solid #f0c000;
+	background: #ffffce url('icons/warning.gif') no-repeat 5px 5px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 5px 5px 28px;
+}
+
+.warning
+{
+    border: 1px solid #f0c000;
+	background: #ffffce url('icons/forbidden.gif') no-repeat 5px 5px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 5px 5px 28px;
+}
+
+.info
+{
+    border: 1px solid #3c78b5;
+	background: #D8E4F1 url('icons/information.gif') no-repeat 5px 5px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 5px 5px 28px;
+}
+
+.tip
+{
+	border: 1px solid #090;
+	background: #dfd url('/res/icons/check.gif') no-repeat 5px 5px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 5px 5px 28px;
+}
+
+/** Last modification information at the bottom of each page */
+.timestamp {
+    margin-top: 30px;
+    font-size: 80%;
+    text-align: right;
+}
+
+
+.draft {
+	font-size:150%;
+	font-weight:bold;
+    color:blue;
+    text-align:center;
+}
+
+.menu-list a {
+    padding: 0em;
+}
+
+code {
+    color: #000000;
+}
+
+.content pre {
+    background-color: #fff;
+}
+
+.content pre code {
+    border: 1px solid #cde0ea;
+}
+
+.footnoteLink {
+    size:80%;
+    color: grey;
+}
+
+.digestLinks {
+    font-size: 80%;
+}
+
+ul.repolist {
+    list-style-type: none;
+    color: #060;
+    margin: 0;
+    padding: 0;
+}
